@@ -60,7 +60,7 @@ i {
 #parent {
     height: 500px;
     width: 100%;
-    background-image: url(image-1920x500.jpg);
+    background-image: url(/photos/image-1920x500.jpg);
     background-size: cover;
     background-position: center;
 }
