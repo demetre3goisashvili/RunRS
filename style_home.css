@@ -1,12 +1,14 @@
+/* ეს გავწერეთ იმის გამო რომ header ყოფილიყო ვიზუალურად ლამაზი. */
 * {
     margin: 0;
     padding: 0;
 }
-
+/* ჰორიზონტზე სადაც იქნებოდა overflow გავუწერეთ hidden რადგან არ გამოჩენილიყო */
 html {
     overflow-x: hidden;
 }
 
+/* ეს უბრალოდ ჰედერია ჩრდილებიც დავუმატეთ რადგაბ გამოკვეთილი ყოფილიყო სხვა ელემენტებისგან, display:flex-ის მეშვეობით ავაგეთ */
 header {
     border: 1px gray solid;
     box-shadow: gray 3px 2px 5px 2px;
@@ -19,7 +21,7 @@ header {
     z-index: 1;
     background-color: white;
 }
-
+/* ესენი არის a-tag-ების გასტილვა უფრო ლამაზი რომ ყოფილიყო */
 .header-a {
     text-decoration: none;
     font-size: 19px;
@@ -27,7 +29,7 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transition: 0.25s;
 }
-
+/* ჰოვერიც დავუმატეთ */
 .header-a:hover {
     transform: scale(1.1);
     color: red;
@@ -36,16 +38,16 @@ header {
 #header-h1 {
     cursor: pointer;
 }
-
+/* main საიტზე შემოსვლის თანავე ქვემოდან ეფარებოდა ნავ ბარს */
 main {
     position: relative;
     top: 200px;
 }
-
+/* ეს იყო ლოგოსთვის */
 i {
     color: cyan;
 }
-
+/* ეს css მე და სანდრომ გავაკეთეთ (საკმაოდ დიდი დრო დასჭირდა) */
 #child {
     background-color: rgba(246, 170, 84, 0.5);
     height: 500px;
@@ -56,7 +58,7 @@ i {
     flex-direction: column;
     transition: background-color 0.3s ease;
 }
-
+/* ეს არის იმისთვის რომ ტექსტი კარგად გამოჩნდეს */
 #parent {
     height: 500px;
     width: 100%;
@@ -77,11 +79,11 @@ i {
     max-width: 1000px;
     text-align: center;
 }
-
+/* როდესაც ჩვენს child div-ს მაუსით გადაუვლით ფერი გამუქდება */
 #child:hover {
     background-color: rgba(246, 170, 84, 0.8);
 }
-
+/* აქედან იწყება მედიები ესენი ძირითადად მე გავაკეთე, უბრალოდ მივყევი იმ ადგილებს სადაც ფუჭდებოდა საიტი და გამოვასწორე, საკმაოდ დიდი დრო დასჭირდა */
 @media (max-width: 1200px) {
     #photo-h1 {
         font-size: 35px;
@@ -183,6 +185,10 @@ i {
     }
 }
 
+
+
+
+/* ამაში დამეხმარა სანდრო, ფოტოები მოიძია css დამეხმარა და ასეშემდეგ, საბოლოო ჯამში ლამაზი გამოვიდა */
 #buy {
     display: flex;
     flex-wrap: wrap;
@@ -259,32 +265,80 @@ i {
 .buy_now:hover {
     padding: 15px 25px;
 }
-
+/* ეს სანდრომ გააკეთა */
 footer {
     background-color: white;
     height: 150px;
     text-align: center;
-    margin-top: 600px;
+    margin-top: 700px;
     border: 1px gray solid;
     box-shadow: gray 3px 2px 5px 2px;
 }
-
+/* ესეც სანდრომ გააკეთა */
 #footer-h2 {
     position: relative;
     top: 50px;
     color: black;
 }
-
+/* ესეც სანდრომ გააკეთა */
 .footer-a {
     position: relative;
     top: 50px;
     margin: 10px;
     color: black;
 }
-
+/* ესეც სანდრომ გააკეთა */
 #footer-p {
     font-size: 13px;
     position: relative;
     top: 50px;
     color: darkgrey;
 }
+
+
+input{
+    border: 2px cyan solid;
+    width: 400px;
+    height: 45px;
+    border-radius: 8px;
+    margin: 10px;
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#Contact{
+    position: relative;
+    left:40% ;
+    top: 300px;
+}
+
+.Us{
+    color: cyan;
+}
+
+#contact_Us{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 35px;
+    left: 100px;
+    font-size: 40px;
+}
+#submit{
+    border: 2px cyan solid;
+    width: 410px;
+    height: 40px;
+    border-radius:8px ;
+    background-color: cyan;
+    cursor: pointer;
+    position: relative;
+    left: 12px;
+    color: white;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+#submit:hover {
+    transform: scale(1.05);
+}
+

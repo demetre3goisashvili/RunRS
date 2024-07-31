@@ -5,16 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RunRS</title>
     <link rel="stylesheet" href="style_home.css">
+    <link rel="icon" href="logo.png" type="image/icon type">
+
 </head>
 <body>
     <header>
+        <!-- ეს არის header, რომელშიც დამეხმარა სანდრო სურიაკოვი, ის დამეხმარა დიზაინის შერჩევაში და კოდის წერაში. -->
         <h1 id="header-h1">Run<i>RS</i></h1>
         <a class="header-a" href="home.html">Home</a>
         <a class="header-a" href="#sneakers">Sneakers</a>
-        <a class="header-a" href="#">Contact</a>
-        <a class="header-a" href="#">Sign Up</a>
+        <a class="header-a" href="#contact_span">Contact</a>
+        <a class="header-a" href="signup.html">Sign Up</a>
     </header>
     <main>
+        <!-- აქ იდეა იყო ის რომ child div-ში მომეთავსებინა ყველანაირი კონტენტი, შემდეგ parent div-ში გამეწერა background-color ამაშც სანდრო დამეხმარა photo resizeრ და css  -->
         <div id="parent">
             <p></p>
             <div id="child">
@@ -22,12 +26,15 @@
                 <p id="photo-p">As we know our style is a really important part of our lifes, and an important part of style is our shoes, we offer wide range options for you to buy yourself classy sneakers.We are a huge reseller<br>company that focuses on comfort and most of all quality, our mindset tells us that this is the day to day detail of ur clients lives we will make sure that our clients are not dissapointed.  </p>
             </div>
         </div>
+        <!-- როგორც ვიცით span თაგი საიტზე არანაირ ცვლილებას არ აკეთებს, ამ შემთხვევაში ის გამოვიყენე იმისთვის რომ, Sneaker-ზე დაჭერის შემდეგ buy now ველზე გადმოსულიყო მომხმარებელი -->
         <span id="sneakers"></span>
         <div id="buy_sneakers">
             <h1>Sneakers</h1>
         </div>
+        <!-- ამ კონკრეტული ველის გაკეთებას მე და სანდრო ძალიან დიდი ხანი მოვუნდით ჩვენ გავინაწილეთ მოვალობები მან html დაწერა მე კიდე css საბოლოოდ კარგი გამოვიდა.. -->
         <div id="buy">
             <div class="sneaker">
+                <!-- როგორც ხედავთ თითეული ფეხსაცმელი ჩავსვით div-ებში რადგან შეგვექმნა ფოტო მისი სახელი და ყიდვის ღილაკი, ეს ყველაფერი კიდევ მოვათავსეთ ბორდერში -->
                 <img class="sneaker_img" src="jordan.jpg">
                 <h2 class="sneaker_h2">Jordan 1</h2>
                 <p class="sneaker_p">An oldschool shoe that is considered<br>one of the greatest footwear ever.</p>
@@ -64,15 +71,34 @@
                 <a class="buy_now" href="#">Buy Now!</a>
             </div>
         </div>
+        <span id="contact_span"></span>
+        <!-- დავალება მივეცი ანდრიას, სანდროს, და დაჩის მთლიანად ეს Contact Us და ძალიან კარგი შედეგია. -->
+        <div id="Contact">
+            <h1 id="contact_Us">Contact <spam class="Us">Us!</spam></h1>
+            <form class="registration">
+                <input type="text" placeholder="Name" required><br>
+                <input type="text"placeholder="Lastname" required><br>
+                <input type="email"placeholder="Email" required><br>
+                <input type="text" placeholder="Number" required ><br>
+                <input type="text"placeholder="Message" required><br>
+                <button onclick="alert('Wait for response!')" id="submit">submit</button>
+            </form>
+        </div>
+        
+ </main>
+       
     </main>
     <footer>
-        <h2 id="footer-h2"><span>____________________</span> Run<i>RS</i><span> ___________________</span></h2>  
-        <p id="footer-p">Copyright @ 2024 RunRS Inc.</p>
-        <a class="footer-a" href="#">Legal Stuff</a>
-        <a class="footer-a"  href="#">Privacy Policy</a>
-        <a class="footer-a"  href="#">Security</a>
-        <a class="footer-a"  href="#">Website Accesibillity</a>
-        <a class="footer-a"  href="#">Manage Cookies</a>   
+        <!-- ეს კიდევ უბრალოდ footer არის რომელიც სანდრომ გააკეთა (css-ში ძალიან ბევრი სამუშაო მომიწია.) საბოლოოდ კარგად გამოვიდა css-იც მან გააკეთა და ძალიან ლამაზია. -->
+         <div id="footer-div">
+            <h2 id="footer-h2"><span>____________________</span> Run<i>RS</i><span> ___________________</span></h2>  
+            <p id="footer-p">Copyright @ 2024 RunRS Inc.</p>
+            <a class="footer-a" href="#">Legal Stuff</a>
+            <a class="footer-a"  href="#">Privacy Policy</a>
+            <a class="footer-a"  href="#">Security</a>
+            <a class="footer-a"  href="#">Website Accesibillity</a>
+            <a class="footer-a"  href="#">Manage Cookies</a>  
+        </div>
     </footer>
 </body>
 </html>
