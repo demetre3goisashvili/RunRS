@@ -175,5 +175,25 @@ footer {
     top: 50px;
     color: darkgrey;
 }
+@media (max-width:1623px) {
+    #signup {
+        position: relative;
+        left: 1000px;
+    }
 
+}
+@media (max-width:1450px) {
+    #photo {
+        display: none;
+    }
+    #signup {
+        position: relative;
+        top: 10px;
+        left: 550px;
+    }
+    footer {
+        position: relative;
+        margin-top: 238px;
+    }
+}
 
