@@ -3,33 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_buy_page.css">
     <link rel="icon" href="logo.png" type="image/icon type">
-    <link rel="stylesheet" href="style_signup.css">
-    <title>RunRS - Sign Up</title>
 </head>
+<header>
+    <h1 id="header-h1">Run<i>RS</i></h1>
+    <a class="header-a" href="home.html">Home</a>
+    <a class="header-a" href="home.html">Sneakers</a>
+    <a class="header-a" href="home.html">Contact</a>
+    <a class="header-a" href="signup.html">Sign Up</a>
+</header>
 <body>
-    <header>
-        <h1 id="header-h1">Run<i>RS</i></h1>
-        <a class="header-a" href="home.html">Home</a>
-        <a class="header-a" href="home.html">Sneakers</a>
-        <a class="header-a" href="home.html">Contact</a>
-        <a class="header-a" href="signup.html">Sign Up</a>
-    </header>
     <main>
-        <div id="photo">
-            <p></p>
-        </div>
-        <div id="signup">
-            <h1 id="sign_up">Sign <spam class="up">Up</spam></h1>
-            <form action="home.html" class="registration">
+        <div id="paymentt">
+            <form action="home.html" id="payment">
+                <h1 class="pay_h1">Buy <span class="Now">Now!</span><h1>
                 <input type="text" placeholder="Name" required><br>
                 <input type="text"placeholder="Lastname" required><br>
                 <input type="email"placeholder="Email" required><br>
-                <input type="password" placeholder="Password"><br>
                 <input type="number" placeholder="Number"><br>
-                <input type="date" placeholder="date" required><br>                
-                <input onclick="alert('Succesfull Registration.')" id="submit"type="submit">
+                <input type="number" placeholder="Credit Card"><br>
+                <input type="number" placeholder="CVV" required><br>   
+                <input type="number" placeholder="VALID THRU" required><br>
+                <input onclick="alert('The item is purchased')" id="submit"type="submit">
             </form>
+        </div>
     </main>
     <footer>
          <div id="footer-div">
@@ -41,7 +40,6 @@
             <a class="footer-a"  href="#">Website Accesibillity</a>
             <a class="footer-a"  href="#">Manage Cookies</a>  
         </div>
+    </footer>
 </body>
 </html>
-
-

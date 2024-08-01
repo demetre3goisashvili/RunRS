@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    border: 1px gray solid;
+    box-shadow: gray 3px 2px 5px 2px;
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+
+.header-a {
+    text-decoration: none;
+    font-size: 19px;
+    color: cyan;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.25s;
+}
+
+.header-a:hover {
+    transform: scale(1.1);
+    color: red;
+}
+
+#header-h1 {
+    cursor: pointer;
+}
+
+main {
+    position: relative;
+    top: 200px;
+}
+
+i {
+    color: cyan;
+}
+
+main {
+    position: relative;
+    top: 200px;
+}
+
+
+
+input{
+    border: 2px cyan solid;
+    width: 500px;
+    height: 60px;
+    border-radius: 12px;
+    margin: 10px; 
+    padding-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+#paymentt{
+    position: relative;
+    left:30% ;
+    top: 200px;
+    width: 30%;
+}
+
+
+
+#payment{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+    width: 100%;
+
+}
+#submit{
+    border: 2px cyan solid;
+    width: 510px;
+    height: 60px;
+    border-radius:8px ;
+    background-color: cyan;
+    cursor: pointer;
+    position: relative;
+    left: 5px;
+    color: white;
+    transition: 0.5s;
+    font-size: 20px;
+   
+}
+
+#submit:hover {
+    transform: scale(1.05);
+}
+
+.Now{
+    color:cyan;
+}
+
+.pay_h1 {
+    position: relative;
+    bottom: 40px;
+    left: 165px;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-color: white;
+    height: 150px;
+    text-align: center;
+    margin-top: 700px;
+    border: 1px gray solid;
+    box-shadow: gray 3px 2px 5px 2px;
+}
+
+#footer-h2 {
+    position: relative;
+    top: 50px;
+    color: black;
+}
+
+.footer-a {
+    position: relative;
+    top: 50px;
+    margin: 10px;
+    color: black;
+}
+
+#footer-p {
+    font-size: 13px;
+    position: relative;
+    top: 50px;
+    color: darkgrey;
+}
+
+
