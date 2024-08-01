@@ -84,6 +84,14 @@ i {
     background-color: rgba(246, 170, 84, 0.8);
 }
 /* აქედან იწყება მედიები ესენი ძირითადად მე გავაკეთე, უბრალოდ მივყევი იმ ადგილებს სადაც ფუჭდებოდა საიტი და გამოვასწორე, საკმაოდ დიდი დრო დასჭირდა */
+
+@media (max-width:1629px) {
+    header {
+        width: 100%;
+    }
+}
+
+
 @media (max-width: 1200px) {
     #photo-h1 {
         font-size: 35px;
@@ -109,6 +117,18 @@ i {
     }
 }
 
+@media (max-width:1287px) {
+    #Contact {
+        margin-left: -80px;
+    }
+}
+
+@media (max-width:1100px) {
+    #Contact {
+        margin-left: -100px;
+    }
+}
+
 @media (max-width: 768px) {
     #photo-h1 {
         font-size: 25px;
@@ -126,6 +146,55 @@ i {
     }
 }
 
+
+
+@media (max-width:675px) {
+    #buy {
+        margin-left: 100px;
+    }
+}
+@media (max-width:756px) {
+    #Contact {
+        margin-left: -120px;
+    }
+}
+
+@media (max-width:600px) {
+    #Contact {
+        margin-left: -140px;
+    }
+    #buy {
+        margin-left: 80px;
+    }
+}
+
+@media (max-width:550px) {
+    #buy {
+        margin-left: 100px;
+    }
+}
+@media (max-width:500px) {
+    #buy {
+        margin-left: 140px;
+    }
+    #Contact {
+        margin-left: -100px;
+    }
+}
+@media (max-width:400px) {
+    #buy {
+        margin-left: 200px;
+    }
+}
+@media (max-width:330px) {
+    #buy {
+        margin-left: 240px;
+    }
+    #Contact {
+        margin-left: -60px;
+    }
+    
+}
 
 @media (min-width: 576px) {
     sneaker_p {
@@ -311,6 +380,7 @@ input{
     position: relative;
     left:40% ;
     top: 300px;
+    width: 30%;
 }
 
 .Us{
@@ -323,6 +393,7 @@ input{
     bottom: 35px;
     left: 100px;
     font-size: 40px;
+    width: 100%;
 }
 #submit{
     border: 2px cyan solid;
