@@ -17,6 +17,10 @@ header {
     z-index: 1;
     background-color: white;
 }
+#h1-a {
+    text-decoration: none;
+    color: black;
+}
 
 .header-a {
     text-decoration: none;
@@ -113,7 +117,7 @@ input{
 
 footer {
     background-color: white;
-    height: 150px;
+    height: 160px;
     text-align: center;
     margin-top: 700px;
     border: 1px gray solid;
@@ -122,22 +126,34 @@ footer {
 
 #footer-h2 {
     position: relative;
-    top: 50px;
+    top: 8px;
     color: black;
 }
 
 .footer-a {
     position: relative;
-    top: 50px;
+    top: 10px;
     margin: 10px;
     color: black;
+    text-decoration: none;
 }
 
 #footer-p {
     font-size: 13px;
     position: relative;
-    top: 50px;
+    top: 10px;
     color: darkgrey;
+}
+
+.social {
+    position: relative;
+    top: 8px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.social:hover {
+    padding: 5px;
 }
 
 

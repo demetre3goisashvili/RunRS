@@ -20,7 +20,10 @@ header {
     z-index: 1;
     background-color: white;
 }
-
+#h1-a {
+    text-decoration: none;
+    color: black;
+}
 .header-a {
     text-decoration: none;
     font-size: 19px;
@@ -51,9 +54,9 @@ main {
     background-size: contain;
     width: 978px;
     height: 550px;
-    border-bottom-right-radius: 150px;
-    border-top-right-radius: 5px;
+    border-radius: 30px;
     position: relative;
+    left: 100px;
 }
 
 
@@ -149,7 +152,7 @@ input{
 
 footer {
     background-color: white;
-    height: 150px;
+    height: 160px;
     text-align: center;
     margin-top: 50px;
     border: 1px gray solid;
@@ -158,27 +161,35 @@ footer {
 /* ესეც სანდრომ გააკეთა */
 #footer-h2 {
     position: relative;
-    top: 50px;
+    top: 8px;
     color: black;
 }
 /* ესეც სანდრომ გააკეთა */
 .footer-a {
     position: relative;
-    top: 50px;
+    top: 10px;
     margin: 10px;
     color: black;
+    text-decoration: none;
 }
 /* ესეც სანდრომ გააკეთა */
 #footer-p {
     font-size: 13px;
     position: relative;
-    top: 50px;
+    top: 10px;
     color: darkgrey;
 }
 @media (max-width:1623px) {
     #signup {
         position: relative;
-        left: 1000px;
+        left: 1100px;
+        
+    }
+    input {
+        width: 300px;
+    }
+    #submit {
+        width: 300px;
     }
 
 }
@@ -195,5 +206,23 @@ footer {
         position: relative;
         margin-top: 238px;
     }
+    input {
+        width: 400px;
+    }
+    #submit {
+        width: 400px;
+    }
+    
+}
+
+.social {
+    position: relative;
+    top: 8px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.social:hover {
+    padding: 5px;
 }
 
